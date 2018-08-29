@@ -3,6 +3,8 @@ const url = require("url");
 const config = require("./config");
 const StringDecoder = require("string_decoder").StringDecoder;
 
+const port = process.env.PORT || 3000;
+
 const httpServer = http.createServer(function(req, res) {
   var path = url.parse(req.url, true).pathname.replace(/^\/+|\/+$/g, "");
   var method = req.method.toLowerCase();
@@ -27,8 +29,8 @@ const httpServer = http.createServer(function(req, res) {
   });
 });
 
-httpServer.listen(config.httpPort, function() {
-  console.log("Server is listening on port " + config.httpPort);
+httpServer.listen(port, function() {
+  console.log("Server is listening on port " + port);
 });
 
 const handlers = {
