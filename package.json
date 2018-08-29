@@ -1,0 +1,19 @@
+{
+  "name": "pirple-hw1",
+  "version": "1.0.0",
+  "description": "Pirple homework #1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mick703/pirple-hw1.git"
+  },
+  "author": "Ming Yan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mick703/pirple-hw1/issues"
+  },
+  "homepage": "https://github.com/mick703/pirple-hw1#readme"
+}
